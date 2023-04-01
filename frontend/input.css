@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    padding: 2rem 10rem
+}
+
+.button {
+    @apply font-semibold text-lg text-white hover:text-gray-200 px-4 py-2 rounded transition duration-300 ease-in-out;
+}
+
+.button-blue {
+    @apply bg-blue-500 hover:bg-blue-600;
+}
+
+.button-green {
+    @apply bg-green-500 hover:bg-green-600;
+}
+
+.button-yellow {
+    @apply bg-violet-500 hover:bg-violet-600;
+}
+
+.button-gray {
+    @apply bg-gray-500 hover:bg-gray-600;
+}
+
+.button-zinc {
+    @apply bg-zinc-500 hover:bg-zinc-600;
+}
+
+img {
+    max-width: initial;
+}
